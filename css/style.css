@@ -222,3 +222,45 @@ margin-bottom: 15px;
     font-size: 24px;
     
 }
+.map{
+    padding-bottom: 100px;
+}
+.map__title{
+    margin-bottom: 46px;
+}
+.about{
+    padding-bottom: 100px;
+}
+.about__inner{
+    display: grid;
+    grid-template-columns: 448px 640px;
+    grid-gap: 32px;
+}
+.about__content{
+    max-width: 448px;
+}
+.about__title{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.about__text{
+    margin-bottom: 34px;
+}
+.about__link{
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+.about__popup{
+    background-image: url(../images/video.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__link-img{
+    
+}
