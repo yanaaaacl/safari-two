@@ -261,6 +261,43 @@ margin-bottom: 15px;
     justify-content: center;
     align-items: center;
 }
-.about__link-img{
-    
+.gallery{
+    padding: 50px 0 105px;
+    background-color: #886239;
+    color: #fff;
+}
+.gallery__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 39px;
+    padding-right: 160px;
+}
+.gallery__title{
+
+text-align: left;
+
+}
+.gallery__link{
+font-size: 16px;
+line-height: 19px;
+
+text-decoration: underline;
+}
+.gallery__item-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+
+}
+.slick-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: -85px;
+    right: 0;
+}
+.slick-prev{
+    right: 60px;
 }
