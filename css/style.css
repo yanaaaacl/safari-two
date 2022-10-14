@@ -301,3 +301,45 @@ text-decoration: underline;
 .slick-prev{
     right: 60px;
 }
+.tour{
+    margin: 100px 0;
+}
+.tour__title{
+    margin-bottom: 77px;
+    font-weight: 700;
+}
+.tour__box{
+    column-count: 2;
+    column-gap: 46px;
+    border-bottom: 1px solid #d9d9de;
+    margin-bottom: 44px;
+    padding-bottom: 50px;
+}
+.tour__text{
+    margin-bottom: 27px;
+    
+}
+.tour__text span{
+    font-weight: 700;
+}
+.tour__info{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+.tour__info-item{
+font-weight: 700;
+font-size: 58px;
+line-height: 75px;
+color: #886239;
+text-align: center;
+font-family: 'PT Serif', serif;
+}
+.tour__info-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1f1e1e;
+}
