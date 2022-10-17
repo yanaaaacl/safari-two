@@ -343,3 +343,57 @@ font-family: 'PT Serif', serif;
     font-family: 'Roboto', sans-serif;
     color: #1f1e1e;
 }
+.booking{
+    background-color: #eaeaea;
+  padding: 76px 0;
+}
+.booking__title{
+    font-weight: 700;
+    margin-bottom: 43px;
+    
+}
+.booking__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.booking__input{
+    width: 256px;
+    height: 44px;
+    font-size: 16px;
+    padding: 11px 14px 12px;
+    border: 1px solid #d9d9de;
+    margin-bottom: 28px;
+}
+.booking__input::placeholder, .booking__area::placeholder{
+    font-size: 16px;
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+}
+.booking__area{
+    width: 100%;
+    margin-bottom: 67px;
+    padding: 14px 0 77px 14px;
+    border: 1px solid #d9d9de;
+    resize: none;
+
+}
+.booking__btn{
+    border-radius: 30px;
+    background-color: #886239;
+    color: #fff;
+    text-align: center;
+    padding: 19px 65px;
+    border: 1px solid #886239;
+}
+
+.booking__label{
+ 
+
+}
+.booking__checkbox{
+    background-color: transparent;
+}
