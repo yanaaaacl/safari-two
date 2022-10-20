@@ -383,17 +383,49 @@ font-family: 'PT Serif', serif;
 }
 .booking__btn{
     border-radius: 30px;
-    background-color: #886239;
+    background: #886239;
     color: #fff;
     text-align: center;
     padding: 19px 65px;
-    border: 1px solid #886239;
+    border: none;
+    cursor: pointer;
+    line-height: 21px;
+    font-size: 18px;
 }
 
 .booking__label{
- 
+ font-size: 16px;
+ line-height: 21px;
+ text-decoration: underline;
+align-items: center;
 
 }
 .booking__checkbox{
-    background-color: transparent;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 45px;
+    
+}
+.booking__checkbox-style{
+    width: 26px;
+    height: 26px;
+    border: 2px solid #c4c4c4;
+    border-radius: 2px;
+     position: absolute;
+     margin-left: -45px;
+}
+.booking__checkbox:checked + .booking__checkbox-style::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #c4c4c4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
 }
