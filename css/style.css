@@ -429,3 +429,61 @@ align-items: center;
 
 
 }
+.footer{
+    background-color: #1f1e1e;
+    color: #fff;
+    padding: 77px 0 81px;
+    
+}
+.footer__logo{
+    text-align: center;
+    margin-bottom: 69px;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 830px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer__box-title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 7px;
+   
+}
+.footer__info{
+    width: 225px;
+    
+}
+.footer__address{
+    width: 164px;
+    
+}
+.footer__contacts{
+    width: 209px;
+    
+}
+.footer__copy{
+    margin-bottom: 3px;
+    opacity: 0.8;
+}
+.footer__phone{
+margin-bottom: 3px;
+opacity: 0.8;
+}
+.footer__mail{
+    opacity: 0.8; 
+
+}
+.footer__link{
+    opacity: 0.8; 
+    text-decoration: underline;
+}
+.footer__adress-text{
+    opacity: 0.8; 
+}
